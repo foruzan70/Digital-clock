@@ -1,0 +1,30 @@
+@font-face {
+    font-family: yekan;
+    src: url('fonts/Yekan.ttf');
+}
+
+* {
+
+    font-family: yekan;
+    background-image: url("./images/background-4576014_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#container{
+    margin-top: 20%;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(225, 234, 234, 0.934);
+    width: 300px;
+    position: absolute;
+    top: -35px;
+    right: 350px;
+    background-image: none;
+
+}
+
+#time{
+    background-image: none;
+    width: fit-content;
+    font-size: 2.5em;
+}
